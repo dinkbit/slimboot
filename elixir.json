@@ -1,0 +1,6 @@
+{
+    "assetsDir": "resources/assets/",
+    "cssOutput": "public/css/",
+    "jsOutput": "public/js/",
+    "bowerDir": "bower_components"
+}

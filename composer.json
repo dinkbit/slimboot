@@ -1,0 +1,14 @@
+{
+    "name": "dinkbit/slimboot",
+    "description": "Small boilerplate for PHP website with assets compilers",
+    "keywords": [
+      "slim",
+      "twig",
+      "elixir"
+    ],
+    "require": {
+        "slim/slim": "2.*",
+        "twig/twig": "~1.0",
+        "slim/views": "0.1.*"
+    }
+}
