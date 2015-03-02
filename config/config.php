@@ -1,15 +1,15 @@
 <?php
 
 $app->configureMode('production', function () use ($app) {
-    $app->config(array(
+    $app->config([
         'log.enable' => true,
-        'debug' => false
-    ));
+        'debug'      => false,
+    ]);
 });
 
 $app->configureMode('local', function () use ($app) {
-    $app->config(array(
+    $app->config([
         'log.enable' => false,
-        'debug' => true
-    ));
+        'debug'      => true,
+    ]);
 });
